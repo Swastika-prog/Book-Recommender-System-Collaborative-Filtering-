@@ -1,0 +1,32 @@
+# Python virtual environment
+myenv/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Optional: model training artifacts (keep if you want reproducibility)
+# Uncomment ONLY if you later move models to Git LFS
+# backend/models/*.pkl
+
+# Optional: large raw datasets
+# Uncomment ONLY if you move data hosting elsewhere
+# data/*.csv
