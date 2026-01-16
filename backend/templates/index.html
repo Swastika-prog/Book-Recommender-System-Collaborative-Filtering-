@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Recommender</title>
+</head>
+<body>
+    <h1>Popular Books</h1>
+
+    {% for i in range(book_name|length) %}
+        <div style="margin-bottom:20px;">
+            <img src="{{ image[i] }}" width="100">
+            <p><b>{{ book_name[i] }}</b></p>
+            <p>{{ author[i] }}</p>
+            <p>Votes: {{ votes[i] }}</p>
+            <p>Rating: {{ rating[i] }}</p>
+        </div>
+    {% endfor %}
+
+    <a href="/recommend">Go to Recommendation Page</a>
+</body>
+</html>
